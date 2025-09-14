@@ -1,0 +1,41 @@
+/* Style for the body */
+body {
+  background-color: #FFF;   /* white background */
+  color: #555;              /* dark gray text */
+}
+
+/* Style for the header */
+header {
+  background-color: #002171; /* dark blue header background */
+  color: #FFF;               /* white header text */
+}
+
+/* Style for the nav */
+nav {
+  background-color: #BBDEFB; /* light blue navigation */
+}
+
+/* Style for the main heading */
+h1 {
+  margin-bottom: 0;          /* remove extra space under h1 */
+}
+
+/* Style for subheadings */
+h2 {
+  color: #1976D2;            /* medium blue subheadings */
+}
+
+/* Style for terms in definition lists */
+dt {
+  color: #002171;            /* dark blue terms */
+}
+
+/* Style for the address element */
+address {
+  font-style: normal;         /* removes default italic */
+}
+
+/* Style for the .resort class */
+.resort {
+  color: #1976D2;             /* medium blue for resort name */
+}

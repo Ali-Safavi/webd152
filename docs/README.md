@@ -30,9 +30,8 @@ webd152/
 
 - [Chapter 1](https://ali-safavi.github.io/webd152/chapter1/)  
 - [Chapter 2](https://ali-safavi.github.io/webd152/chapter2/)  
-  - [Yurts Page](https://ali-safavi.github.io/webd152/chapter2/yurts.html)  
 - [Chapter 3](https://ali-safavi.github.io/webd152/chapter3/)  
-  - [Classes Page](https://ali-safavi.github.io/webd152/chapter3/classes.html)  
+  
 
 ---
 

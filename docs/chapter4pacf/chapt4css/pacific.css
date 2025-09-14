@@ -1,40 +1,41 @@
-/* Body styles */
+/* Style for the body */
 body {
-  background-color: #FFF;
-  color: #555;
+  background-color: #FFF;   /* white background */
+  color: #555;              /* dark gray text */
 }
 
-/* Header styles */
+/* Style for the header */
 header {
-  background-color: #002171;
-  color: #FFF;
+  background-color: #002171; /* dark blue header background */
+  color: #FFF;               /* white header text */
 }
 
-/* Nav styles */
+/* Style for the nav */
 nav {
-  background-color: #BBDEFB;
+  background-color: #BBDEFB; /* light blue navigation */
 }
 
-/* Headings */
+/* Style for the main heading */
 h1 {
-  margin-bottom: 0;
+  margin-bottom: 0;          /* remove extra space under h1 */
 }
 
+/* Style for subheadings */
 h2 {
-  color: #1976D2;
+  color: #1976D2;            /* medium blue subheadings */
 }
 
-/* Definition term */
+/* Style for terms in definition lists */
 dt {
-  color: #002171;
+  color: #002171;            /* dark blue terms */
 }
 
-/* Address (remove italics) */
+/* Style for the address element */
 address {
-  font-style: normal;
+  font-style: normal;         /* removes default italic */
 }
 
-/* Resort class */
+/* Style for the .resort class */
 .resort {
-  color: #1976D2;
+  color: #1976D2;             /* medium blue for resort name */
 }

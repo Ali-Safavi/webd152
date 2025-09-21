@@ -97,7 +97,19 @@ footer {
   font-weight: bold;
 }
 
-/* Hero Images outside header for separate width control */
+
+#homehero {
+  background-image: url(home.jpg); /* Replace with your homepage hero image filename */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  max-width: 900px;
+  margin: 20px auto 40px auto;
+  border: 2px solid #1976d2;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
 #yurthero {
   background-image: url(yurt.jpg);
   background-repeat: no-repeat;
@@ -121,3 +133,5 @@ footer {
   border: 2px solid #1976d2;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
+
+

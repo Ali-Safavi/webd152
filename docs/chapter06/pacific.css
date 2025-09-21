@@ -99,7 +99,7 @@ footer {
 
 
 #homehero {
-  background-image: url(coast.jpg); 
+  background-image: url(coast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -133,6 +133,7 @@ footer {
   border: 2px solid #1976d2;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
+
 
 
 

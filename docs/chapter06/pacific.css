@@ -89,14 +89,15 @@ footer {
 }
 
 #homehero {
-    background-image: url(coast2.jpeg); /* bgi:url(coast2.jpg) */
+    background-image: url(coast2.jpg); /* bgi:url(coast2.jpg) */
 }
 
 #yurthero {
-    background-image: url(yurt.jpeg); /* bgi:url(yurt.jpg) */
+    background-image: url(yurt.jpg); /* bgi:url(yurt.jpg) */
 }
 
 #trailhero {
-    background-image: url(trail.jpeg); /* bgi:url(trail.jpg) */
+    background-image: url(trail.jpg); /* bgi:url(trail.jpg) */
 }
+
 

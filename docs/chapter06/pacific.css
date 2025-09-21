@@ -15,6 +15,7 @@ body {
   min-width: 960px;
   max-width: 2048px;
   width: 80%;
+  padding-bottom: 20px;
 }
 
 header {
@@ -27,34 +28,35 @@ header {
   text-align: center;
 }
 
+/* Vertical nav styling */
 nav {
   background-color: #fff;
-  font-weight: bold;
-  padding: 1em;
+  padding: 1em 0;
   text-align: center;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 15px;
+  margin: 10px 0;
 }
 
 nav a {
   text-decoration: none;
   color: #000032;
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 main {
   padding: 1px 20px 20px;
   margin-top: 1em;
-  max-width: 900px; /* Optional: limit width for better readability */
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,15 +97,15 @@ footer {
   font-weight: bold;
 }
 
-/* Hero Image outside header so width controlled here */
+/* Hero Image outside header for separate width control */
 #yurthero {
   background-image: url(yurt.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 300px;
-  max-width: 900px; /* Narrower photo */
-  margin: 20px auto 40px auto; /* centered with spacing top & bottom */
-  border: 2px solid #1976d2; /* optional border to separate from background */
+  max-width: 900px;
+  margin: 20px auto 40px auto;
+  border: 2px solid #1976d2;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }

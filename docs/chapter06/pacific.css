@@ -1,14 +1,15 @@
 /* Chapter 5 Pacific Trails CSS */
 
 body {
-    background-color: #90c7e3; /* bgc#90c7e3 */
-    background-image: linear-gradient(to bottom, #fff, #90C7E3); /* bgi:linear-gradient(to bottom,#fff,#90C7E3) */
-    background-repeat: no-repeat; /* bgr:no-repeat */
-    color: #555; /* c#555 */
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ff:Arial,"Helvetica Neue",Helvetica,sans-serif */
+  background-color: #90c7e3; /* bgc:#90c7e3 */
+  background-image: linear-gradient(to bottom, #fff, #90C7E3); /* bgi:linear-gradient(to bottom,#fff,#90C7E3) */
+  background-repeat: no-repeat; /* bgr:no-repeat */
+  color: #555; /* c:#555 */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; /* ff:Arial,"Helvetica Neue",Helvetica,sans-serif */
 }
+
 #wrapper {
-  background-color: #fff;  /* bgc#fff */
+  background-color: #fff; /* bgc:#fff */
   box-shadow: 3px 3px 3px #333; /* bxsh:3px 3px 3px #333 */
   margin: auto; /* m:a */
   min-width: 960px; /* min-w:960px */
@@ -17,85 +18,92 @@ body {
 }
 
 header {
-    background-color: #000032; /* bgc#000032 */
-    color: #FFF; /* c:#FFF */
-    background-image: url(images/sunset.jpg); /* bgi:url(images/sunset.jpg) */
-    background-position: right; /* bgp:right */
-    background-repeat: no-repeat; /* bgr:no-repeat */
-    height: 60px; /* h:60px */
-    padding-top: 15px; /* pt:15px */
-    text-align: center; /* ta:center */
+  background-color: #000032; /* bgc:#000032 */
+  color: #FFF; /* c:#FFF */
+  background-image: url(images/sunset.jpg); /* bgi:url(images/sunset.jpg) */
+  background-position: right; /* bgp:right */
+  background-repeat: no-repeat; /* bgr:no-repeat */
+  height: 60px; /* h:60px */
+  padding-top: 15px; /* pt:15px */
+  text-align: center; /* ta:center */
 }
 
 /* Navigation */
 nav {
-    background-color: #fff; /* bgc#fff */
-    font-weight: bold; /* fw:bold */
-    padding: 1em; /* p:1em */
-    text-align: center; /* ta:center */
+  background-color: #fff; /* bgc:#fff */
+  font-weight: bold; /* fw:bold */
+  padding: 1em; /* p:1em */
+  text-align: center; /* ta:center */
+  white-space: nowrap; /* wsp:nowrap */
+  overflow: hidden; /* ov:hidden */
 }
 
 nav a {
-    text-decoration: none; /* txd:none */
+  text-decoration: none; /* txd:none */
+  margin: 0 1em; /* m:0 1em */
+  color: #000; /* c:#000 */
 }
 
+/* Main content area */
 main {
-    padding: 1px 20px 20px; /* p:1px 20px 20px */
+  padding: 20px; /* p:20px */
 }
 
 /* Headings */
 h1 {
-    margin-bottom: 0; /* mb:0 */
-    margin-top: 0; /* mt:0 */
+  margin-bottom: 0; /* mb:0 */
+  margin-top: 0; /* mt:0 */
 }
 
 h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* ff:Georgia,'Times New Roman',Times,serif */
+  font-family: Georgia, 'Times New Roman', Times, serif; /* ff:Georgia,'Times New Roman',Times,serif */
 }
 
 h2 {
-    color: #1976D2; /* c:#1976D2 */
-    text-shadow: 1px 1px #404040; /* tsh:1px 1px #404040 */
+  color: #1976D2; /* c:#1976D2 */
+  text-shadow: 1px 1px #404040; /* tsh:1px 1px #404040 */
 }
 
 h3 {
-    color: #000032; /* c:#000032 */
+  color: #000032; /* c:#000032 */
 }
 
 /* Definition terms */
 dt {
-    color: #002171; /* c:#002171 */
+  color: #002171; /* c:#002171 */
 }
 
+/* Footer */
 footer {
-    font-size: 75%; /* fz:75% */
-    font-style: italic; /* fsi */
-    padding: 2em; /* p:2em */
-    text-align: center; /* ta:center */
+  font-size: 75%; /* fz:75% */
+  font-style: italic; /* fsi */
+  padding: 2em; /* p:2em */
+  text-align: center; /* ta:center */
 }
 
+/* Resort span */
 .resort {
-    color: #1976d2; /* c:#1976d2 */
-    font-weight: bold; /* fw:bold */
+  color: #1976d2; /* c:#1976d2 */
+  font-weight: bold; /* fw:bold */
 }
 
 /* Hero Images */
 #homehero,
 #yurthero,
 #trailhero {
-    background-repeat: no-repeat; /* bgr:no-repeat */
-    background-size: cover;       /* bgs:cover */
-    height: 18.75rem;             /* h:18.75rem */
+  background-repeat: no-repeat; /* bgr:no-repeat */
+  background-size: cover;       /* bgs:cover */
+  height: 18.75rem;             /* h:18.75rem */
 }
 
 #homehero {
-    background-image: url(coast2.jpeg); /* bgi:url(coast2.jpeg) */
+  background-image: url(coast2.jpeg); /* bgi:url(coast2.jpeg) */
 }
 
 #yurthero {
-    background-image: url(yurt.jpeg); /* bgi:url(yurt.jpeg) */
+  background-image: url(yurt.jpeg); /* bgi:url(yurt.jpeg) */
 }
 
 #trailhero {
-    background-image: url(trail.jpeg); /* bgi:url(trail.jpeg) */
+  background-image: url(trail.jpeg); /* bgi:url(trail.jpeg) */
 }

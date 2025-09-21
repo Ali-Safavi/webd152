@@ -1,5 +1,6 @@
-/* Chapter 5 Pacific Trails CSS */
+/* Pacific Trails CSS */
 
+/* ---------- GENERAL ---------- */
 body {
   background-color: #90c7e3;
   background-image: linear-gradient(to bottom, #fff, #90C7E3);
@@ -18,6 +19,7 @@ body {
   padding-bottom: 20px;
 }
 
+/* ---------- HEADER ---------- */
 header {
   background-color: #000032;
   background-image: url(sunset.jpg);
@@ -28,7 +30,15 @@ header {
   text-align: center;
 }
 
-/* Vertical nav styling */
+h1 {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* ---------- NAVIGATION ---------- */
 nav {
   background-color: #fff;
   padding: 1em 0;
@@ -53,6 +63,7 @@ nav a {
   font-size: 1.1em;
 }
 
+/* ---------- MAIN CONTENT ---------- */
 main {
   padding: 1px 20px 20px;
   margin-top: 1em;
@@ -61,17 +72,13 @@ main {
   margin-right: auto;
 }
 
-/* Headings */
-h1 {
-  margin: 0;
+/* Only make homepage main content left-aligned */
+main.leftalign {
+  margin-left: 0;
+  margin-right: auto;
 }
 
-h1,
-h2,
-h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
+/* ---------- TEXT STYLING ---------- */
 h2 {
   color: #1976d2;
   text-shadow: 1px 1px #404040;
@@ -85,6 +92,12 @@ dt {
   color: #002171;
 }
 
+.resort {
+  color: #1976d2;
+  font-weight: bold;
+}
+
+/* ---------- FOOTER ---------- */
 footer {
   font-size: 75%;
   font-style: italic;
@@ -92,24 +105,22 @@ footer {
   text-align: center;
 }
 
-.resort {
-  color: #1976d2;
-  font-weight: bold;
-}
+/* ---------- HERO IMAGES ---------- */
 
-
+/* Homepage hero image */
 #homehero {
   background-image: url(coast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 300px;
-  width: 100%; 
-  margin: 20px 0 40px 0; 
-  border: none; 
-  box-shadow: none; 
+  width: 100%;
+  margin: 20px 0 40px 0;
+  border: none;
+  box-shadow: none;
 }
 
+/* Yurt page hero */
 #yurthero {
   background-image: url(yurt.jpg);
   background-repeat: no-repeat;
@@ -122,6 +133,7 @@ footer {
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
 
+/* Activities page hero */
 #trailhero {
   background-image: url(trail.jpg);
   background-repeat: no-repeat;
@@ -133,6 +145,8 @@ footer {
   border: 2px solid #1976d2;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
 }
+
+
 
 
 

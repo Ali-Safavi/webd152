@@ -27,10 +27,10 @@ header {
   background-image: url(sunset.jpg);
   background-position: right;
   background-repeat: no-repeat;
-  height: 120px;       /* Increased height to make banner bigger */
-  padding-top: 40px;   /* Adjust padding to vertically center content */
+  height: 120px;       
+  padding-top: 40px;   
   text-align: center;
-  font-size: 2rem;     /* Bigger font size for banner title */
+  font-size: 2rem;     
   font-weight: bold;
 }
 
@@ -81,16 +81,16 @@ main {
   padding: 20px 30px;
   overflow: auto;
 
-  display: flex;             /* Make main a flex container */
-  flex-direction: row;       /* Children (sections) go left to right */
-  gap: 2em;                  /* Space between sections */
-  flex-wrap: nowrap;         /* Prevent wrapping to next line */
+  display: flex;             
+  flex-direction: row;       
+  gap: 2em;                  
+  flex-wrap: nowrap;         
 }
 
 /* Sections inside main */
 section {
-  flex: 1;                   /* Each section takes equal available space */
-  padding: 1em 2em;          /* Padding inside each section */
+  flex: 1;                   
+  padding: 1em 2em;          
   box-sizing: border-box;
 }
 
@@ -163,4 +163,5 @@ footer {
 #trailhero {
   background-image: url(trail.jpg);
 }
+
 

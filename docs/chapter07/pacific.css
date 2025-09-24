@@ -78,7 +78,7 @@ nav a:hover {
 main {
   background-color: #fff;
   margin-left: 190px; /* Space for nav */
-  padding: 20px 30px;
+  padding: 1px 20px 20px 30px;
   overflow: auto;
 
   display: flex;             
@@ -163,5 +163,6 @@ footer {
 #trailhero {
   background-image: url(trail.jpg);
 }
+
 
 

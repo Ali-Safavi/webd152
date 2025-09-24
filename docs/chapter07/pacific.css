@@ -121,7 +121,7 @@ dt {
 
 /* Address & Footer */
 address {
-  margin-left: 190px;
+  margin-left: 0px;
   padding: 10px 30px;
   font-style: normal;
   font-weight: bold;
@@ -164,6 +164,7 @@ footer {
 #trailhero {
   background-image: url(trail.jpg);
 }
+
 
 
 

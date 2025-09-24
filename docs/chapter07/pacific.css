@@ -114,19 +114,18 @@ h3 {
   color: #000032;
 }
 
-/* Definition terms */
+
 dt {
   color: #002171;
 }
 
 /* Address & Footer */
 address {
-  margin-left: -190px;
+  margin-left: 190px;
   padding: 10px 30px;
   font-style: normal;
   font-weight: bold;
   color: #1976d2;
-  text-align: left;
 }
 
 footer {
@@ -165,6 +164,7 @@ footer {
 #trailhero {
   background-image: url(trail.jpg);
 }
+
 
 
 

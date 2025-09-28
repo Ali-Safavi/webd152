@@ -124,16 +124,17 @@ footer {
 }
 
 #homehero {
-  background-image: url(images/coast2.jpg); /* bgimg:url(images/coast2.jpg) */
+  background-image: url(coast2.jpg); /* bgimg:url(coast2.jpg) */
 }
 
 #yurthero {
-  background-image: url(images/yurt.jpg); /* bgimg:url(images/yurt.jpg) */
+  background-image: url(yurt.jpg); /* bgimg:url(yurt.jpg) */
 }
 
 #trailhero {
-  background-image: url(images/trail.jpg); /* bgimg:url(images/trail.jpg) */
+  background-image: url(trail.jpg); /* bgimg:url(trail.jpg) */
 }
+
 
 
 

@@ -73,17 +73,17 @@ nav a:hover {
 }
 
 main {
-  background-color: #fff;
-  margin-left: 190px;
-  padding: 1px 20px 20px 30px;
-  overflow: auto;
+  background-color: #fff; /* bgc:#fff */
+  margin-left: 190px; /* ml190 */
+  padding: 1px 20px 20px 30px; /* padding: top right bottom left */
+  overflow: auto; /* ova */
 }
 
 section {
-  float: left;
-  padding-left: 2em;
-  padding-right: 2em;
-  width: 33%;
+  float: left; /* fl */
+  padding-left: 2em; /* pl2em */
+  padding-right: 2em; /* pr2em */
+  width: 33%; /* w33% */
 }
 
 h1, h2, h3, footer {
@@ -145,12 +145,6 @@ footer {
 #trailhero {
   background-image: url(trail.jpg);
 }
-
-
-
-
-
-
 
 
 

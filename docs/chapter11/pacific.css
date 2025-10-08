@@ -68,6 +68,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
+  transition: color 3s ease-out;
 }
 
 nav a:link {
@@ -259,6 +260,112 @@ input[type="submit"]:focus {
 .center > p {
   margin: 0;
 }
+/* Flex container for the main content row */
+.content-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+/* Video Styling */
+.content-row video {
+  flex: 0 0 320px;
+  margin: 2em;
+  max-width: 100%;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/*Text content-styling */
+.text-content {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Gallery Grid Layout */
+.gallery {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 2em 0;
+}
+
+/* Gallery Image Container */
+.gallery-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Images */
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.gallery-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-image:hover img {
+  transform: scale(1.1);
+}
+
+/* FigCaption Overlay */
+.gallery-image figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.5em;
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(20%);
+}
+
+/*Hover effect for gallery images */
+.gallery-image:hover figcaption {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+@media (min-width:900px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width:1200px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Responive Design for Video */
+@media (max-width: 700px) {
+  .content-row {
+    flex-direction: column;
+  }
+  .content-row video {
+    margin: 1em auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 32.5rem) {
   body {
     background-image: none;
@@ -360,6 +467,9 @@ input[type="submit"] {
     max-width: 100%;
   }
 }
+
+
+
 
 
 

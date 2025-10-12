@@ -220,7 +220,7 @@ tr:nth-of-type(odd) {
 
 /* Hover effect for table rows */
 tbody tr:hover {
-  background-color: #dbeeff;
+  background-color: #ffcd6f;
   cursor: pointer;
 }
 
@@ -332,6 +332,7 @@ tbody tr:hover {
     max-width: 100%;
   }
 }
+
 
 
 

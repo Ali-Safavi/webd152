@@ -54,5 +54,6 @@ webd152/
 - [Chapter 9](https://ali-safavi.github.io/webd152/chapter09/)
 - [Chapter 10](https://ali-safavi.github.io/webd152/chapter10/)
 - [Chapter 11](https://ali-safavi.github.io/webd152/chapter11/)
+- [Chapter 12](https://ali-safavi.github.io/webd152/chapter12/)
 
 > ℹ️ Tip: Make sure all folders and files are correctly placed in the `docs/` directory on GitHub 

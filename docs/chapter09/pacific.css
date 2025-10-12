@@ -218,6 +218,12 @@ tr:nth-of-type(odd) {
   background-color: #ffcd6f;
 }
 
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #dbeeff;
+  cursor: pointer;
+}
+
 /* ========== MEDIA QUERIES ========== */
 
 @media (max-width: 32.5rem) {
@@ -326,7 +332,6 @@ tr:nth-of-type(odd) {
     max-width: 100%;
   }
 }
-
 
 
 

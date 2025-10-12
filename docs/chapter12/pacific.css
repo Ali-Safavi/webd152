@@ -202,6 +202,13 @@ td {
 tr:nth-of-type(odd)  {
    background-color: #ffcd6f;
 }
+
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #ffcd6f;
+  cursor: pointer;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -451,6 +458,5 @@ input[type="submit"] {
     max-width: 100%;
   }
 }
-
 
 

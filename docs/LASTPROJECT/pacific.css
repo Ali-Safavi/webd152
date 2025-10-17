@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -135,7 +134,7 @@ footer {
   font-weight: bold;
 }
 
-#homehero, #yurthero, #trailhero, #reservations-hero {
+#homehero, #yurthero, #trailhero, #reservations-hero, #about-hero {
   background-repeat: no-repeat;
   background-size: cover;
   height: 18.75rem;
@@ -155,6 +154,10 @@ footer {
 
 #reservations-hero {
   background-image: url(chapter11pacf/photos/reservations.jpg);
+}
+
+#about-hero {
+  background-image: url(chapter11pacf/photos/aboutus.jpg); 
 }
 
 .card-row {
@@ -459,5 +462,3 @@ input[type="submit"] {
     max-width: 100%;
   }
 }
-
-

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Learn about the dedicated team, heritage, and values behind Pacific Trails Resort — your coastal retreat near Big Sur.">
+  <meta name="description" content="Learn about the dedicated team, heritage, and values behind Pacific Trails Resort — your coastal retreat near Big Sur. Meet our founder John Smith and our passionate staff who make your stay unforgettable. Discover our commitment to sustainability, offering an eco-friendly environment that blends with the natural beauty of the Pacific Coast. Our resort offers exclusive packages tailored to ensure each guest enjoys the best that nature and luxury have to offer. Whether you're here for a weekend getaway or an extended stay, our team ensures a personalized experience from start to finish. At Pacific Trails Resort, we pride ourselves on exceptional service and creating lifelong memories. Join us for your next adventure and let us be part of your story. Explore the trails, relax on the coast, and indulge in the serenity of our retreat. We invite you to experience the perfect balance of nature, comfort, and luxury during your stay with us.">
   <title>About Us | Pacific Trails Resort</title>
   <link rel="stylesheet" href="pacific.css">
 </head>
@@ -24,45 +24,72 @@
       </ul>
     </nav>
 
+    <!-- Hero Image -->
     <div id="about-hero" style="background-image: url('chapter11pacf/photos/aboutus.jpg'); height: 400px; background-size: cover; background-position: center;" role="img" aria-label="Sunset over Pacific Trails Resort coastal landscape"></div>
 
     <main>
       <!-- Flex container for two columns -->
-      <section class="about-container">
-        <div class="about-text">
+      <section class="about-container" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+        <div class="about-text" style="flex: 1 1 45%; min-width: 280px;">
           <h2>Learn More About Us</h2>
-          <p>At Pacific Trails Resort, we’re dedicated to providing guests with a unique blend of adventure and relaxation...</p>
-
+          <p>At Pacific Trails Resort, we’re dedicated to providing guests with a unique blend of adventure and relaxation. Our team is passionate about delivering an unforgettable retreat experience, surrounded by breathtaking views of the Pacific Coast. Whether you’re hiking through scenic trails or unwinding by the ocean, our story is one of community, sustainability, and a love for nature.</p>
+        
+          <!-- Left Column -->
           <section id="our-story">
-            <h3>Our Story</h3>
-            <p>Pacific Trails Resort began as a dream to create a serene coastal retreat blending luxury and nature...</p>
+            <h2>Our Story</h2>
+            <p><span class="resort" style="font-weight: bold;">Pacific Trails Resort</span><br> began as a dream to create a serene coastal retreat blending luxury and nature. Founded by John Smith, our resort welcomes guests from around the world seeking adventure and tranquility on California’s beautiful North Coast.</p>
           </section>
 
           <section id="our-heritage">
-            <h3>Our Heritage</h3>
-            <p>Built on the legacy of the early pioneers, our resort honors the natural beauty of the Big Sur coastline...</p>
+            <h2>Our Heritage</h2>
+            <p>Rooted in sustainable tourism and a deep respect for the environment, Pacific Trails Resort honors the native coastal ecosystems. Over the years, we've grown while preserving the natural beauty and cultural history of the Zephyr region.</p>
           </section>
 
-          <section id="the-trail">
-            <h3>About The Trail</h3>
-            <p>Our unique trail system allows guests to explore the wonders of the Big Sur coastline...</p>
+          <section id="about-the-trail">
+            <h2>About The Trail</h2>
+            <p>Our resort is nestled among miles of scenic hiking trails that offer breathtaking views of the Pacific Ocean. Guests enjoy guided tours led by expert naturalists who share stories of the land, wildlife, and local flora.</p>
+          </section>
+
+          <section id="join-our-family">
+            <h2>Join Our Family</h2>
+            <p>At Pacific Trails Resort, we foster a welcoming community of staff and guests alike. We believe in genuine hospitality and building lasting relationships through shared experiences in nature.</p>
+          </section>
+      
+          <section id="our-values">
+            <h2>Our Values</h2>
+            <p>We believe in sustainability, hospitality, and community. Our commitment is to provide a respectful and enriching experience that honors nature while delivering unmatched comfort and service to our guests.</p>
+          </section>
+
+          <section class="about-video-address" style="display: flex; gap: 2rem; margin-top: 3rem;">
+            <!-- Video Section -->
+            <div style="margin-bottom: 1rem; max-width: 600px;">
+              <h2>Discover Pacific Trails Resort</h2>
+              <video controls style="max-width: 100%; border-radius: 8px;">
+                <source src="chapter11pacf/video/ResortStockFootage.mp4" type="video/mp4">
+                <source src="chapter11pacf/video/ResortStockFootage.ogv" type="video/ogg">
+                Sorry, your browser does not support embedded videos.
+              </video>
+              <address style="flex: 3rem; font-style: normal; text-align: left;">
+                <span class="resort" style="font-weight: bold;">Pacific Trails Resort</span><br>
+                12010 Pacific Trails Road<br>
+                Zephyr, CA 95555<br>
+                <a href="tel:888-555-1212">888-555-1212</a>
+              </address>
+            </div>
           </section>
         </div>
 
-        <div class="about-media">
+        <!-- Right Column -->
+        <div class="about-media" style="flex: 1 1 45%; min-width: 280px;">
           <section id="meet-our-team">
-            <h3>Meet Our Team</h3>
-            <p>Our team of dedicated professionals are here to ensure your stay is nothing short of amazing...</p>
-            <!-- Team member details and images could go here -->
-          </section>
-        </div>
-      </section>
-    </main>
+            <h2>Meet Our Team</h2>
+            <div class="team-member" style="margin-bottom: 2rem;">
+              <h4>John Smith — President and Founder</h4>
+              <img src="chapter11pacf/photos/john.jpg" alt="Portrait of John Smith, President and Founder of Pacific Trails Resort" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 2px solid #003;">
+              <p>"Pacific Trails Resort is not just a place, it's a dream brought to life. My vision was always to create a sanctuary where people could reconnect with nature while enjoying the comfort and luxury they deserve. Every day I see the joy our guests experience, and that keeps me inspired to continue building a retreat where adventure meets tranquility."</p>
+            </div>
 
-    <footer>
-      <p>&copy; 2025 Pacific Trails Resort | <span class="resort">Your coastal getaway near Big Sur</span></p>
-    </footer>
-
-  </div> 
-</body>
-</html>
+            <div class="team-member" style="margin-bottom: 2rem;">
+              <h4>Vanessa Chen — Guest Services Manager</h4>
+              <img src="chapter11pacf/photos/vanessa.jpg" alt="Portrait of Vanessa Chen, Guest Services Manager" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 2px solid #003;">
+              <p>"At Pacific Trails, it's all about creating a welcoming experience for every guest. Whether it's helping someone plan their day on the trails or offering a moment of calm by the ocean, I take pride in knowing our team makes each stay truly special. Our guests

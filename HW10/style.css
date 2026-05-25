@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: white;
+  border: 2px solid black;
+  padding: 20px;
+  width: 360px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+input, select {
+  width: 92%;
+  margin: 6px auto;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+}
+
+button {
+  width: 95%;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: 2px solid black;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+
+.summary-box {
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  background: #fafafa;
+}
+
+.summary-box p {
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #eee;
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid black;
+}
